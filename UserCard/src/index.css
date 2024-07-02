@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Merienda:wght@300..900&display=swap');
+
+
+*{ 
+    box-sizing: border-box;
+} 
+body{ 
+    font-family: "Merienda", sans-serif;
+}
+#root{ 
+   
+ display: flex; 
+ align-items: center;
+ justify-content: center;
+ gap:20px; 
+ flex-wrap: wrap; 
+ min-height: 20vh;
+ margin:0%;
+}  
+
+h3
+{ 
+    margin: 10px 0;
+}
+h6
+{ 
+    margin: 5px 0;
+    text-transform: uppercase;
+} 
+
+p{ 
+   font-size: 14px; 
+   line-height: 21px;
+   text-align : center;
+}
+.card-container{ 
+  background-color: #353b48; 
+  border-radius: 5px; 
+  box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+  color:azure; 
+  padding-top: 40px;
+ width : 350px; 
+ text-align: center; 
+ position: relative;
+ 
+}  
+
+.pro{ 
+    color:#231e39; 
+    background-color: red; 
+    border-radius: 5px; 
+    font-size :14px; 
+    padding : 3px 7px; 
+    position:absolute; 
+    top: 15px; 
+    left: 10px;
+}
+
+.online{ 
+    background-color: greenyellow;
+} 
+.offline{ 
+    background-color: orangered;
+} 
+
+.img{ 
+    width: 150px; /* Fixed width */
+    height: 150px; /* Fixed height */
+    border: 3px solid #f1f7fc;
+    border-radius: 50%; 
+    object-fit: cover; 
+    box-sizing: border-box;
+} 
+
+.buttons { 
+    display:flex; 
+    justify-content: center;
+   
+    gap:10px;
+} 
+
+button.primary{ 
+    background-color: #056dbc ; 
+    border: 1px solid #77bbef; 
+    font-family: "Merienda", sans-serif;
+    border-radius: 3px; 
+    color:#f1f7fc; 
+    font-weight: 500; 
+    padding: 10px 25px;
+}  
+
+button.primary.outline{ 
+    background-color: transparent;
+    font-family: "Merienda", sans-serif;
+}
+
+
+.skills{ 
+    background-color: #2f3640;
+    text-align:left; 
+    padding: 15px;
+    margin-top: 15px;
+} 
+
+.skills ul{ 
+    list-style-type: none; 
+    margin: 0; 
+    padding:0;
+
+   
+} 
+.skills ul li{ 
+    border: 1px solid #595180; 
+    display: inline-block; 
+    border-radius: 2px; 
+    padding: 7px; 
+    margin: 0 7px 7px 0; 
+    font-size:12px;
+} 
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-family: "Merienda", cursive;
+    color: #353b48;
+}
