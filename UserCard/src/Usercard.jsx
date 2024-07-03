@@ -65,11 +65,6 @@ const Usercard = () => {
         <div>
       <h2>Fresher Details</h2> 
 
-
-      {/* //    <User name="Ram" city="New York" description="Frontend Developer" 
-//    skills={["UI/useContext", "HTML","CSS","JavaScript","React","Nodejs","Mongodb"]}  
-//    online={true} profile="images/pic1.jpg"  />   */}
-
       <div id="root">
         {userdata.map((user, index) => (
           <User
